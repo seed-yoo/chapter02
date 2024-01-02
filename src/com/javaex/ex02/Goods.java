@@ -1,6 +1,5 @@
-package com.javaex.ex01;
+package com.javaex.ex02;
 
-// 헤더
 public class Goods {
 
 	// 필드
@@ -9,10 +8,6 @@ public class Goods {
 	
 	// 생성자
 	
-	// 메소드-g/s
-	//		-일반
-	
-	
-	
-	
+	// 메소드 g/s
+	//		일반
 }
