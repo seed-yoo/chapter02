@@ -1,4 +1,4 @@
-package com.javaex.ex05;
+package com.javaex.practice;
 
 public class Song {
 
@@ -9,6 +9,17 @@ public class Song {
 	private String composer;
 	private int year;
 	private int track;
+
+	// 생성자
+	public Song(String title, String artist, String album, String composer, int year, int track) {
+		super();
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.composer = composer;
+		this.year = year;
+		this.track = track;
+	}
 
 	// 메소드 - getter/setter
 	public String getTitle() {
@@ -71,5 +82,4 @@ public class Song {
 				+ year + ", track=" + track + "]";
 	}
 
-	
 }
