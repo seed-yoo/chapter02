@@ -45,7 +45,11 @@ public class Point {
 
 	// 메소드 - getter/setter
 	public int getX() {
-		return x;
+		if(this.x < 0) {
+			return 0;
+		}else {
+			return x;
+		}
 	}
 
 	public void setX(int x) {
@@ -67,12 +71,12 @@ public class Point {
 	}
 
 	public void draw() {
-		System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
+		System.out.println("점[x=" + this.getX() + ", y=" + y + "]을 그렸습니다.");
 	}
 	
 	public void draw(boolean action) {
 		if(action == true) {
-			System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
+			System.out.println("점[x=" + this.x + ", y=" + y + "]을 그렸습니다.");
 		}else {
 			System.out.println("점[x=" + x + ", y=" + y + "]을 지웠습니다.");
 		}
