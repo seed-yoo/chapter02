@@ -48,7 +48,7 @@ public class ColorPoint extends Point {
 	}
 	
 	public void draw() {
-		System.out.println("점 [x=" + getX() + ", y=" + getY() + ", 색= " + color + "]을/를 그렸습니다.");
+		System.out.println("점 [x=" + super.x + ", y=" + getY() + ", 색= " + color + "]을/를 그렸습니다.");
 	}
 
 }
