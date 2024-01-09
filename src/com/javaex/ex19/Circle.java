@@ -1,4 +1,4 @@
-package com.javaex.ex18;
+package com.javaex.ex19;
 
 public class Circle extends Shape {
 
@@ -39,18 +39,19 @@ public class Circle extends Shape {
 	// 메소드 - 일반
 	@Override
 	public String toString() {
-		return "Circle [radius=" + radius + ", getLineColor()=" + getLineColor() + ", getFillColor()=" + getFillColor()
+		return "Circle [radius=" + radius + ", getLineColor()=" + getLineColor() + ", fillColor=" + fillColor
 		+ "]";
 	}
 	
 	public void draw() {
-		System.out.println("==============원을 그렸습니다======================");
-		System.out.println("가로: " + radius);
-		System.out.println("면색: " + getFillColor());
+		// 원형을 시각화 하는 복잡한 로직작품
+		System.out.println("=================원을 그렸습니다===================");
+		System.out.println("반지름: " + radius);
+		System.out.println("면색: " + fillColor);
 		System.out.println("선색: " + getLineColor());
 		System.out.println("================================================");
 	}
-
+	
 	
 	
 }
