@@ -40,23 +40,10 @@ public abstract class Shape {
 		return "Shape [lineColor=" + lineColor + ", fillColor=" + fillColor + "]";
 	}
 	
-	public void draw() {
-		System.out.println("Shape.draw()");
-	}
+	public abstract void draw();
 	
 	// 면적구하는 메소드
 	public abstract double area();
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 }
