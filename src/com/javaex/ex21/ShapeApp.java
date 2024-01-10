@@ -55,6 +55,5 @@ public class ShapeApp {
 //		d03.draw();
 //		d04.draw();
 		
-		
 	}
 }
