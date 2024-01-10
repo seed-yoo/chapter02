@@ -28,7 +28,7 @@ public class Circle extends Shape {
 	}
 
 	// 메소드 - getter/setter
-	public double getRadius() {
+	public int getRadius() {
 		return radius;
 	}
 

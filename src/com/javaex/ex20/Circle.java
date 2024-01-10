@@ -1,4 +1,4 @@
-package com.javaex.ex19;
+package com.javaex.ex20;
 
 public class Circle extends Shape {
 
@@ -51,7 +51,13 @@ public class Circle extends Shape {
 		System.out.println("선색: " + getLineColor());
 		System.out.println("================================================");
 	}
-	
+
+	// 면적구하는 메소드
+	public double area() {
+		double PI = Math.PI;
+		double result = radius * radius * PI;
+		return result;
+	}
 	
 	
 }
